@@ -1,0 +1,9 @@
+Create the folder name as server
+1) run command on th cmd "npm init ---yes"
+2)npm i  json-server
+
+
+then in vs code 
+3) in package json file write
+"start" : "npx  json-server -p 3001 -w db.json"
+and db .json will automaitcall y excute when you will start the npm start in the terminal.
